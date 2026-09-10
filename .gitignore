@@ -1,0 +1,53 @@
+.devtools
+.github/workflows/
+node_modules
+.vscode
+.idea
+
+# output
+out
+dist
+build/*
+*.tgz
+onnxruntime-*.tgz
+
+# coverage
+coverage
+*.lcov
+
+# logs
+logs
+*.log
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+.DS_Store
+
+# local runtime / user data
+upload/*
+uploads/*
+data/oss/*
+data/assets/*
+data/models/*
+data/web.bak*
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/test.sqlite
+data/version.txt
+version.txt
+
+db.sqlite
+db.sqlite-shm
+db.sqlite-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
