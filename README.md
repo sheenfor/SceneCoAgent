@@ -22,6 +22,7 @@
 
 ## 目录
 
+- [作品演示](#作品演示)
 - [核心特性](#核心特性)
 - [它解决什么问题](#它解决什么问题)
 - [快速开始](#快速开始)
@@ -32,6 +33,20 @@
 - [端到端流程](#端到端流程)
 - [相关仓库](#相关仓库)
 - [许可证](#许可证)
+
+---
+
+## 作品演示
+
+《潮汐之歌》——用 SceneCoAgent 从小说改编到成片的实际项目。
+
+| 平台工作区 | 成片预览 |
+| --- | --- |
+| [![SceneCoAgent 工作区](./docs/showcase/workspace.jpg)](./docs/showcase/workspace.jpg)<br>**工作台** · 剧本 Agent 协作 | [潮汐之歌 · merged.mp4](./docs/showcase/tide-song.mp4)<br>**成片** · 展示视频 |
+
+https://github.com/sheenfor/SceneCoAgent/raw/main/docs/showcase/tide-song.mp4
+
+> 左侧是项目「潮汐之歌」的工作台：原文 → 剧本 Agent → 剧本 → 塑形 → 素材 → 制作。右侧 / 上方为该项目导出的展示视频。
 
 ---
 
@@ -154,7 +169,8 @@ data/
 ├── vendor/              # 供应商脚本
 └── web/                 # 内置前端构建产物
 scripts/                 # 构建与 Electron 入口
-docs/                    # 文档资源
+docs/                    # 文档与作品演示
+docs/showcase/           # 潮汐之歌工作区截图与成片
 ```
 
 ---
